@@ -231,8 +231,12 @@ input[type=checkbox]{
     accent-color: var(--Green-600);
 }
 
+input[type=radio]{
+    accent-color: var(--Green-600);
 
-@media (max-width:440px) {
+}
+
+@media (max-width:490px) {
     body{
         padding-top: 20px;
     }
@@ -266,7 +270,5 @@ input[type=checkbox]{
     }
 }
 
-input[type=radio]{
-    accent-color: var(--Green-600);
 
-}
+
