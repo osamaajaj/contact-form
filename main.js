@@ -149,8 +149,8 @@ submitBtn.addEventListener("click", ()=>{
 
         setTimeout(()=>{document.querySelector(".succes").style.opacity = "0"},3000);
         
-        // console.log(textValues);
-        console.log(values); 
+       
+        
     }
     else{
         console.log("some fieldes empty");
@@ -158,22 +158,6 @@ submitBtn.addEventListener("click", ()=>{
 })
 
 
-
-/* LEET Code TESTS */
-
-
-
-var mergeTwoLists = function(list1, list2) {
-    for(let i = 0; i<list1.length;i++){
-        list2.push(list1[i]);   
-    }
-    list2.sort();
-return list2;  
-};
-
-let list1 = [1,2,4];
-let list2 = [1,3,4];
-console.log("ssss: " + mergeTwoLists(list1,list2));
 
 
 
