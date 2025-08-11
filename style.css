@@ -231,6 +231,42 @@ input[type=checkbox]{
     accent-color: var(--Green-600);
 }
 
+
+@media (max-width:440px) {
+    body{
+        padding-top: 20px;
+    }
+    .wrapper{
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    form .col{
+        flex-direction: column;
+    }
+
+    .form-item{
+        width: 100%;
+    }
+
+    .col-3 .radio-inputs{
+        flex-direction: column;
+    }
+
+    .col-3 .radio-inputs label{
+        width: 100%;
+    }
+
+    .col-4 textarea {
+        height: 200px;
+    }
+    
+    .submit{
+        margin-top: -20px;
+    }
+}
+
 input[type=radio]{
     accent-color: var(--Green-600);
+
 }
